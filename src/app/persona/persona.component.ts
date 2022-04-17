@@ -5,11 +5,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './persona.component.html',
   styleUrls: ['./persona.component.css']
 })
-export class PersonaComponent implements OnInit {
+export class PersonaComponent  {
 
-  constructor() { }
+  nombre : string = 'David';
+  apellido: string = 'Zapata';
+  edad: number = 22;
+  // private edad: number = 22;
 
-  ngOnInit(): void {
-  }
+  /*getEdad():number{
+    return this.edad;
+  }*/
 
 }
