@@ -7,4 +7,6 @@ import {Component} from '@angular/core';
     styles:['h1{color:aqua;}']
 })
 
-export class PersonasComponent{}
+export class PersonasComponent{
+    desabilitar = false;
+}
