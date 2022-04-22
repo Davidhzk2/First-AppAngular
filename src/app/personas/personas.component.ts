@@ -17,7 +17,9 @@ export class PersonasComponent{
         this.mensaje = 'Persona Agregada!';
     }
 
+    // event es la definicio del atributo 
     modificarTitulo(event: Event){
+        // Atributo de tipo HTML  <HTMLInputElement>
         this.titulo =(<HTMLInputElement>event.target).value;
     }
 }
